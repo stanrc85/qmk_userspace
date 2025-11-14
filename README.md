@@ -56,3 +56,11 @@ New builds will be compiled when changes are made to this repo.
 - Indicator LEDs blink on start up.
 - Indicator LEDs configured for CAPS LOCK and layer indicators.
 - RGB timeout when keyboard is idle.
+
+## Smith and Rune Iron Alice
+- QMK Settings and Tap Dance enabled.
+- Keyboard source code manually added to personal VIAL repo.
+
+## Neo Ergo
+- QMK Settings and Tap Dance enabled.
+- Keyboard source code manually added to personal VIAL repo.

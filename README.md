@@ -64,3 +64,8 @@ New builds will be compiled when changes are made to this repo.
 ## Neo Ergo
 - QMK Settings and Tap Dance enabled.
 - Keyboard source code manually added to personal VIAL repo.
+
+## Valor Rev2
+- CAPS LOCK on indicators.
+- Layer state on indicators.
+- RGB timeout when keyboard is idle.

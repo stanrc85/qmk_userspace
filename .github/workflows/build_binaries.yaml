@@ -10,7 +10,7 @@ jobs:
     name: 'QMK Userspace Build'
     uses: qmk/.github/.github/workflows/qmk_userspace_build.yml@main
     with:
-      qmk_repo: vial-kb/vial-qmk
+      qmk_repo: stanrc85/vial-qmk
       qmk_ref: vial
 
   publish:

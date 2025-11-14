@@ -1,12 +1,13 @@
 # QMK Userspace
 
-An [external QMK userspace][external-userspace] for maintaining my own keymaps and configuration files outside the main firmware repository.
+An external QMK userspace for maintaining my own VIAL keymaps and configuration files outside the main firmware repository.
 
 ## Local Compiling
 
-Compile the firmware for a particular keyboard and keymap:
+Compile the firmware for a particular keyboard and keymap (within VIAL firmeware repo):
 
 ```shell
+cd vial-qmk
 qmk compile -kb <keyboard> -km <keymap>
 ```
 
@@ -39,3 +40,19 @@ Modify `.github/workflows/build_binaries.yml` to use VIAL repo.
       qmk_ref: vial
 ```
 New builds will be compiled when changes are made to this repo.
+
+# Board Specific Notes
+
+## KBDFans Maja v2
+- Very tight space contraints, check `rules.mk` and `config.h` for enabled and disabled features. Most RGB lighting modes are disabled, enable only the ones that will be used.
+- QMK Settings and Tap Dance enabled.
+
+## Noxary Valhalla v2
+- QMK Settings and Tap Dance enabled.
+
+## Sneakbox AlicecloneRGB
+- QMK Settings and Tap Dance enabled.
+- Used across multiple PCBs: Aliceclonergb, M4, M5.
+- Indicator LEDs blink on start up.
+- Indicator LEDs configured for CAPS LOCK and layer indicators.
+- RGB timeout when keyboard is idle.

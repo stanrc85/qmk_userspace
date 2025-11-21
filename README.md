@@ -71,6 +71,6 @@ New builds will be compiled when changes are made to this repo.
 - RGB timeout when keyboard is idle.
 
 ## Valor Rev1
-- RGB tineout when idle.
+- RGB timeout when keyboard is idle.
 - QMK Settings and Tap Dance enabled.
 - Some RGB modes disabled to save space. 

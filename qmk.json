@@ -7,6 +7,7 @@
         ["xelus/valor/rev2", "stanrc85"],
         ["neo/ergo", "stanrc85"],
         ["smithrune/ironergo", "stanrc85"],
-        ["xelus/valor/rev1", "stanrc85"]
+        ["xelus/valor/rev1", "stanrc85"],
+        ["noxary/valhalla", "stanrc85"]
     ]
 }

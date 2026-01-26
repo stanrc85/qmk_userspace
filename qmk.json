@@ -8,6 +8,7 @@
         ["neo/ergo", "stanrc85"],
         ["smithrune/ironergo", "stanrc85"],
         ["xelus/valor/rev1", "stanrc85"],
-        ["noxary/valhalla", "stanrc85"]
+        ["noxary/valhalla", "stanrc85"],
+        ["mechlovin/adelais/standard_led/arm/rev4/stm32f303", "stanrc85"]
     ]
 }

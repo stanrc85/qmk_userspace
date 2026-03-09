@@ -34,8 +34,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [2] = LAYOUT_all(
     _______, KC_TILD,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  _______, KC_DEL,
-    _______, _______,  _______, _______, _______, _______, KC_VOLU,          KC_PGUP, KC_BSPC, KC_UP,   KC_DEL,  KC_PSCR, _______, _______, KC_INS,
-    _______, KC_CAPS,  _______, _______, KC_LCTL, KC_LSFT, KC_VOLD,          KC_PGDN, KC_LEFT, KC_DOWN, KC_RGHT, _______, _______,          _______,
+    _______, _______,  _______, _______, _______, _______, KC_VOLU,          _______, _______, _______, _______,  KC_PSCR, _______, _______, KC_INS,
+    _______, KC_CAPS,  _______, _______, KC_LCTL, KC_LSFT, KC_VOLD,          KC_LEFT, KC_DOWN,   KC_UP, KC_RGHT, _______, _______,          _______,
              _______,  _______,  _______, _______, _______, _______,          _______, _______, KC_WBAK, KC_WFWD, _______, _______, _______, _______,
              _______,           _______, _______, _______,                            _______,          _______,          _______
   ),
@@ -56,7 +56,7 @@ bool rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
         RGB_MATRIX_INDICATOR_SET_COLOR(27, 255, 0, 0); //caps lock led
     } else {
         RGB_MATRIX_INDICATOR_SET_COLOR(27, 0, 0, 0); //caps lock led
-    }   
+    }
 
     // num lock cyan
     if (host_keyboard_led_state().num_lock) {
